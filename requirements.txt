@@ -1,0 +1,8 @@
+faker
+kafka-python
+pyspark
+psycopg2-binary
+streamlit
+pandas
+scikit-learn
+numpy
