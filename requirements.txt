@@ -1,8 +1,88 @@
+# =========================
+# ✅ Core Dependencies
+# =========================
+dash
 faker
+gym
 kafka-python
-pyspark
-psycopg2-binary
-streamlit
-pandas
-scikit-learn
+matplotlib
 numpy
+pandas
+psycopg2-binary
+pyspark
+scikit-learn
+seaborn
+sqlalchemy
+stable-baselines3
+streamlit
+tensorflow
+torch
+xgboost
+
+# =========================
+# 🧩 Optional Dependencies
+# =========================
+
+# --- Image Processing ---
+# opencv-python  # For image processing tasks
+
+# --- Natural Language Processing ---
+# nltk  # For basic NLP
+# transformers  # For advanced NLP with pre-trained models
+
+# --- Interactive Visualizations ---
+# plotly  # For interactive plots
+# folium  # For map-based visualizations
+
+# --- Large-Scale Data Handling ---
+# dask  # For parallel computing with big data
+
+# --- Machine Learning (Lightweight) ---
+# lightgbm  # Fast gradient boosting framework
+
+# --- NoSQL Database Support ---
+# pymongo  # MongoDB support
+
+# --- Web Scraping ---
+# beautifulsoup4  # HTML/XML parsing for scraping
+
+# --- Data Serialization ---
+# dill  # Advanced Python object serialization
+
+# --- Testing and Validation ---
+# hypothesis  # Property-based testing
+
+# --- Logging and Monitoring ---
+# loguru  # Elegant logging utility
+# sentry-sdk  # Error tracking and monitoring
+
+# --- Deployment ---
+# gunicorn  # WSGI HTTP server for UNIX
+# uvicorn  # ASGI server for async applications
+
+# --- Miscellaneous ---
+# tqdm  # Progress bar for loops
+# pyarrow  # For efficient data interchange
+# pyodbc  # For ODBC database connections
+
+# --- Data Versioning ---
+# dvc  # Data Version Control for managing datasets and models
+
+# --- Experiment Tracking ---
+# mlflow  # For tracking experiments and managing models
+# comet_ml  # For experiment tracking and model management
+# wandb  # Weights & Biases for experiment tracking and collaboration
+# optuna  # Hyperparameter optimization framework
+# ray  # For distributed computing and parallel processing
+
+# --- Model Deployment ---
+# seldon-core  # For deploying machine learning models on Kubernetes
+# bentoml  # For serving machine learning models as APIs
+# fastapi  # For building APIs with Python
+
+# --- Data Visualization ---
+# bokeh  # For interactive visualizations
+# altair  # Declarative statistical visualization library
+# hvplot  # High-level plotting API for Pandas and Dask
+# plotnine  # Grammar of graphics for Python
+# pydeck  # For WebGL-powered maps and visualizations
