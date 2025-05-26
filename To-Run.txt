@@ -1,0 +1,16 @@
+terminal 1 ->
+eepak@deepak-LOQ-15IRX9:~/kafka_2.13-3.7.0$ bin/zookeeper-server-start.sh config/zookeeper.properties
+
+terminal 2 ->
+deepak@deepak-LOQ-15IRX9:~/kafka_2.13-3.7.0$ bin/kafka-server-start.sh config/server.properties
+
+terminal 3,4,5 ->
+python3 producer_customers.py
+python3 producer_orders.py
+python3 producer_products.py
+
+terminal 6 ->
+spark-submit   --packages org.mongodb.spark:mongo-spark-connector_2.12:10.5.0,org.apache.spark:spark-sql-kafka-0-10_2.12:3.5.1   spark_streaming.py
+
+terminal 7 ->
+streamlit run app.py
