@@ -1,8 +1,8 @@
 terminal 1 ->
-eepak@deepak-LOQ-15IRX9:~/kafka_2.13-3.7.0$ bin/zookeeper-server-start.sh config/zookeeper.properties
+bin/zookeeper-server-start.sh config/zookeeper.properties
 
 terminal 2 ->
-deepak@deepak-LOQ-15IRX9:~/kafka_2.13-3.7.0$ bin/kafka-server-start.sh config/server.properties
+bin/kafka-server-start.sh config/server.properties
 
 terminal 3,4,5 ->
 python3 producer_customers.py
